@@ -9,7 +9,7 @@ def info(dic):
     :return: information about twitter account.
     """
     inform = ['name: ', 'description :', 'location: ', 'followers_count: ',
-              'friends_count: ']
+              'screen_name', 'friends_count: ']
     # create hyperlink
     times, flag = dic['description'].count('http'), 0
     for i in range(times):
