@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_6783f9a1e98b4a62ad3e39679ff17b37 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6783f9a1e98b4a62ad3e39679ff17b37" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_6783f9a1e98b4a62ad3e39679ff17b37 = L.map(
+                                  'map_6783f9a1e98b4a62ad3e39679ff17b37',
+                                  {center: [38.725700000000074,-9.150249999999971],
+                                  zoom: 2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_aae2072cd9ef457b9630cad42904c305 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_6783f9a1e98b4a62ad3e39679ff17b37);
+        
+    
+            var feature_group_bf33c89271e942829349d3343bd6ebf1 = L.featureGroup(
+                ).addTo(map_6783f9a1e98b4a62ad3e39679ff17b37);
+        
+    
+
+            var marker_7936a223de7349038443789456495365 = L.marker(
+                [38.890370000000075,-77.03195999999997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_bf33c89271e942829349d3343bd6ebf1);
+            
+    
+
+                var icon_d1963b177be940bcab33bc883ffdbc4b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7936a223de7349038443789456495365.setIcon(icon_d1963b177be940bcab33bc883ffdbc4b);
+            
+    
+            var popup_3f6144a6208d4ec2b8e5b28e7075e188 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ccf1909c3e64279a0b7a11e7d218514 = $('<div id="html_3ccf1909c3e64279a0b7a11e7d218514" style="width: 100.0%; height: 100.0%;">Name: President Trump<br>Description :45th President of the United States of America, @realDonaldTrump. Tweets archived: <a href="https://t.co/eVVzoBb3Zr">link</a><br>Location: Washington, D.C.<br>Followers_count: 22199267<br>Friends_count: 41<br></div>')[0];
+                popup_3f6144a6208d4ec2b8e5b28e7075e188.setContent(html_3ccf1909c3e64279a0b7a11e7d218514);
+            
+
+            marker_7936a223de7349038443789456495365.bindPopup(popup_3f6144a6208d4ec2b8e5b28e7075e188);
+
+            
+        
+    
+
+            var marker_11e444dc56a94d6c95f643c87c839c47 = L.marker(
+                [51.50642000000005,-0.1272099999999341],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_bf33c89271e942829349d3343bd6ebf1);
+            
+    
+
+                var icon_56fc246ede13439494db7dcfba767226 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11e444dc56a94d6c95f643c87c839c47.setIcon(icon_56fc246ede13439494db7dcfba767226);
+            
+    
+            var popup_4269fc7bc9fa4073acf391f2fa1c3dc8 = L.popup({maxWidth: '300'});
+
+            
+                var html_f58d30f8912d457886d57e485b8fb86f = $('<div id="html_f58d30f8912d457886d57e485b8fb86f" style="width: 100.0%; height: 100.0%;">Name: The Economist<br>Description :News and analysis with a global perspective.  Subscribe here: <a href="https://t.co/owztJzwlmm">link</a><br>Location: London<br>Followers_count: 22930675<br>Friends_count: 160<br></div>')[0];
+                popup_4269fc7bc9fa4073acf391f2fa1c3dc8.setContent(html_f58d30f8912d457886d57e485b8fb86f);
+            
+
+            marker_11e444dc56a94d6c95f643c87c839c47.bindPopup(popup_4269fc7bc9fa4073acf391f2fa1c3dc8);
+
+            
+        
+    
+
+            var marker_08435cefc3744f43ae968623743a1b24 = L.marker(
+                [40.71455000000003,-74.00713999999994],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_bf33c89271e942829349d3343bd6ebf1);
+            
+    
+
+                var icon_1bbf6a41344e4b75a877a67addc19a54 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_08435cefc3744f43ae968623743a1b24.setIcon(icon_1bbf6a41344e4b75a877a67addc19a54);
+            
+    
+            var popup_c61caf78ec3144519bd85253bddf9669 = L.popup({maxWidth: '300'});
+
+            
+                var html_54533d7caed34223916bf592c2a00e6e = $('<div id="html_54533d7caed34223916bf592c2a00e6e" style="width: 100.0%; height: 100.0%;">Name: The New York Times<br>Description :Where the conversation begins. Follow for breaking news, special reports, RTs of our journalists and more. Visit <a href="https://t.co/UVJRxNXe00">link</a> to share news tips.<br>Location: New York City<br>Followers_count: 41148991<br>Friends_count: 883<br></div>')[0];
+                popup_c61caf78ec3144519bd85253bddf9669.setContent(html_54533d7caed34223916bf592c2a00e6e);
+            
+
+            marker_08435cefc3744f43ae968623743a1b24.bindPopup(popup_c61caf78ec3144519bd85253bddf9669);
+
+            
+        
+</script>

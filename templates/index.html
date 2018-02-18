@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body style="text-align:center;">
+<form action="/" method="post">
+    <h1>Twitter account search</h1>
+    <ul style="display:inline-block;">
+    {% for item in twi_list %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+    <br/>
+    <input name="nick" type="text">
+    <input type="submit" value="Add account">
+</form>
+<br/>
+<form action="/map" method="get">
+    <input type="submit" value="Create map">
+</form>
+</body>
+</html>
